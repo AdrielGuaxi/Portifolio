@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ingrid+Darling&display=swap" rel="stylesheet">
+    <script src="js/script.js" type="module" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@hcaptcha/vanilla-hcaptcha" async defer></script>
+    <!-- <script src="https://js.hcaptcha.com/1/api.js" async defer></script> -->
+
+
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/formacao.css">
+    <link rel="stylesheet" href="styles/formulario.css">
+    <script src="assets/fontawesome-free-6.5.2-web/js/all.js" defer></script>
+
+    <title>Portifolio</title>
+</head>
+
+<body>
+    <nav class="nav__container">
+        <a href="#Topo" class="home">A</a>
+        <i class="fa-solid fa-burger nav__bt"></i>
+        <ul class="ul_container">
+            <li><a class="nav__link" href="#Habilidades">Habilidades</a></li>
+            <li><a class="nav__link" href="#Projetos">Projetos</a></li>
+            <li><a class="nav__link" href="#Contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="main__container">
+        <div id="Topo" class="main_sobre">
+            <h1>
+                Adriel Henrique
+            </h1>
+            <div class="sobre_container">
+                <p class="texto_sobre">
+                    Eu sou formado na área de ciência da computação e dedicado e apaixonado por tecnologia, tenho
+                    um foco maior em desenvolvimento front-end, mas pretendo me tornar um full stack futuramente.
+                </p>
+                <p class="texto_sobre">
+                    Durante a graduação participei de projetos em grupos e individuais que expandiram minhas
+                    habilidades interpessoais e meu conhecimento com ferramentas de controle de versão e metodologias
+                    ágeis. Atualmente, estou aprendendo para desenvolvimento back-end, além disto possuo breve
+                    conhecimento em DevOps e busco uma vaga como desenvolvedor web, onde eu possa contribuir
+                    positivamente e que me permita continuar a aprender.
+                </p>
+                <div class="redes">
+                    <a href="https://www.linkedin.com/in/adrielhenrique/"><i
+                            class="fa-brands fa-linkedin rede-icon"></i></a>
+                    <a href="https://github.com/AdrielGuaxi"><i class="fa-brands fa-github rede-icon"></i></a>
+                    <a class="cv" href="assets/doc/Curriculo - Adriel Henrique.pdf" target="_blank">Currículo</a>
+                </div>
+            </div>
+
+        </div>
+        <div id="Habilidades" class="habilidades">
+            <h1>Habilidades</h1>
+            <div class="habilidades__container">
+                <div class="card__habilidade">
+                    <i class="fa-brands fa-html5 icon"></i>
+                    <p class="habilidade_tipo">HTML</p>
+                </div>
+                <div class="card__habilidade">
+                    <i class="fa-brands fa-css3-alt icon"></i>
+                    <p class="habilidade_tipo">CSS</p>
+                </div>
+                <div class="card__habilidade">
+                    <i class="fa-brands fa-js icon"></i>
+                    <p class="habilidade_tipo">Javascript</p>
+                </div>
+                <div class="card__habilidade">
+                    <i class="fa-brands fa-react icon"></i>
+                    <p class="habilidade_tipo">React.js</p>
+                </div>
+                <div class="card__habilidade">
+                    <i class="fa-brands fa-python icon"></i>
+                    <p class="habilidade_tipo">Python</p>
+                </div>
+                <div class="card__habilidade">
+                    <i class="fa-brands fa-git-alt icon"></i>
+                    <p class="habilidade_tipo">Git</p>
+                </div>
+                <div class="card__habilidade">
+                    <i class="fa-brands fa-linux icon"></i>
+                    <p class="habilidade_tipo">Linux</p>
+                </div>
+                <div class="card__habilidade">
+                    <i class="fa-brands fa-docker icon"></i>
+                    <p class="habilidade_tipo">Docker</p>
+                </div>
+                <div class="card__habilidade">
+                    <i class="fa-brands fa-google icon"></i>
+                    <p class="habilidade_tipo">GPC</p>
+                </div>
+            </div>
+
+        </div>
+        <div id="Formacao">
+            <h1>Formação e Certificação</h1>
+            <div class="formacoes">
+                <div class="formacoes__container">
+                    <div class="formacao">
+                        <img src="assets/imagens/Unip.png" alt="logo da ifmt">
+                        <div class="formacao__descricao">
+                            <p class="formacao__texto__descrição">Ciência da computação</p>
+                            <p class="descricao_ano">2023</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="Projetos">
+            <h1>Projetos</h1>
+            <div class="projetos">
+                <div class="projetos__container">
+                    <div class="projeto">
+                        <img class="image_projeto" src="assets/imagens/aluraFokus.jpg" alt="aluraFokus">
+                        <div class="descricao">
+                            <p class="texto__descrição">Aplicação para estudos com técnica pomodoro</p>
+                            <div class="descricao_habilidades">
+                                <i class="fa-brands fa-html5 desc"></i>
+                                <i class="fa-brands fa-css3-alt desc"></i>
+                                <i class="fa-brands fa-js desc"></i>
+                            </div>
+                            <div class="codigo__fonte">
+                                <a href="https://github.com/AdrielGuaxi/Alura-Fokus">Código-fonte</a>
+                                <a href="https://alura-fokus-peach.vercel.app/">Site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projeto">
+                        <img class="image_projeto" src="assets/imagens/Hyper_burger.jpg" alt="Hyper burger">
+                        <div class="descricao">
+                            <p class="texto__descrição">E-commerce de hamburger com 
+                                pedidos sendo enviados para whatsapp
+                            </p>
+                            <div class="descricao_habilidades">
+                                <i class="fa-brands fa-html5 desc"></i>
+                                <i class="fa-brands fa-css3-alt desc"></i>
+                                <i class="fa-brands fa-js desc"></i>
+                            </div>
+                            <div class="codigo__fonte">
+                                <a href="https://github.com/AdrielGuaxi/Cardapio-online">Código-fonte</a>
+                                <a href="https://cardapio-online-eosin.vercel.app">Site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projeto">
+                        <img class="image_projeto" src="assets/imagens/AluraMidi.jpg" alt="Alura midi">
+                        <div class="descricao">
+                            <p class="texto__descrição">About
+                                MIDI é um protocolo de comunicação padrão
+                                usado na indústria musical para a transmissão de informações entre dispositivos
+                                eletrônicos</p>
+                            <div class="descricao_habilidades">
+                                <i class="fa-brands fa-html5 desc"></i>
+                                <i class="fa-brands fa-css3-alt desc"></i>
+                                <i class="fa-brands fa-js desc"></i>
+                            </div>
+                            <div class="codigo__fonte">
+                                <a href="https://github.com/AdrielGuaxi/Alura-MIDI">Código-fonte</a>
+                                <a href="https://alura-midi-nine-gules.vercel.app">Site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Contato" class="contato">
+            <h1>Contato</h1>
+            <div class="formulario">
+                <form class="formulario_container" action="/" method="post" data-adicionar>
+
+                    <div class="campo_escrita">
+                        <label>
+                            <input type="text" name="nome" id="nome" required maxlength="50">
+                            <p>Nome</p>
+                            <span class="mensagem_erro"></span>
+                        </label>
+                    </div>
+
+                    <div class="campo_escrita">
+                        <label>
+                            <input type="email" name="email" id="email" required maxlength="50">
+                            <p>E-mail</p>
+                            <span class="mensagem_erro"></span>
+                        </label>
+                    </div>
+
+                    <div class="campo_escrita">
+                        <label>
+                            <input type="text" name="assunto" id="assunto" required maxlength="50">
+                            <p>Assunto</p>
+                            <span class="mensagem_erro"></span>
+                        </label>
+                    </div>
+
+                    <div class="campo_escrita">
+                        <label>
+                            <textarea type="text" name="mensagem" id="mensagem" required maxlength="300"></textarea>
+                            <p>Mensagem</p>
+                            <span class="mensagem_erro"></span>
+                        </label>
+                    </div>
+
+                    <h-captcha id="signupCaptcha" site-key="f6a0666e-4fe0-4d15-b779-3e0e91c21a59" size="normal"
+                        tabindex="0" type="submit"></h-captcha>
+                    <!-- <div class="h-captcha" data-sitekey="f6a0666e-4fe0-4d15-b779-3e0e91c21a59"></div> -->
+                    <!-- <button class="formulario__botao cv" id="signupCaptcha" site-key="f6a0666e-4fe0-4d15-b779-3e0e91c21a59" type="submit">Enviar</button> -->
+
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <p>Desenvolvido por <strong>Adriel Henrique</strong> </p>
+        <p><strong>2024</strong></p>
+    </footer>
+
+</body>
+
+</html>

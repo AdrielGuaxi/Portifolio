@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Ingrid Darling";
+    src:
+        local("Ingrid Darling"),
+        url("../fonts/IngridDarling-Regular.ttf")
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter.ttf");
+}
+
+@font-face {
+    font-family: "Karma";
+    src: url("../fonts/Karma-Regular.ttf");
+}
+
+:root {
+    --primary-color: #003C43;
+    --bg-color: #F5F5F5;
+    --bg-button: #fff;
+
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    clear: both;
+    scrollbar-width: thin;
+    margin: 0px;
+    padding: 0px;
+    scrollbar-color: var(--primary-color) transparent;
+    scrollbar-gutter: stable;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+  }
+
+*::-webkit-scrollbar {
+    width: 2px;
+}
+
+
+p {
+    color: var(--primary-color);
+}
+
+body {
+    padding-left: 20%;
+    background: var(--bg-color);
+}
+
+.nav__container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: var(--primary-color);
+    padding-top: 0.5rem;
+    gap: 20rem;
+}
+
+.nav__bt {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-family: "Ingrid Darling";
+    font-style: normal;
+    font-size: 2.5rem;
+    flex-grow: 1;
+}
+
+.ul_container {
+    flex-grow: 2;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav__link {
+    font-family: "Karma";
+    color: var(--primary-color);
+    font-size: 1rem;
+}
